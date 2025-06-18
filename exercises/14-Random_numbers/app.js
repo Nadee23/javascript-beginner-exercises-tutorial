@@ -1,7 +1,7 @@
 function getRandomInt()
 {
-	let randomNumber = Math.random();
-	return randomNumber;
+	let randomNumber = Math.floor(Math.random() * 10) + 1;
+	return  randomNumber;
 }
 
 
